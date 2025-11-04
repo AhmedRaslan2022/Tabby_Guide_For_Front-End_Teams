@@ -12,7 +12,7 @@ The Tabby widget view is crucial for informing customers about the "Pay in X" op
 | Aspect | Details |
 | :--- | :--- |
 | **Placement** | On the **Product Details Page** near the price, or on the **Payment Checkout Page**. |
-| **Description** | Implement the widget as described in the Tabby documentation, including the required branding (logo, title, payment breakdown). |
+| **Description** | Implement the widget as described in the Tabby documentation, including the required branding (logo, title, description). |
 | **Interaction** | If the widget is tapped/clicked, it must open the specific informational link provided by Tabby, with all required query parameters (e.g., product price, currency). |
 
 * **Widget Interaction Link (Example):** `https://checkout.tabby.ai/promos/product-page/installments/{lang}/?price={PRICE}&currency={CURRENCY}&merchant_code={MERCHANT_CODE}&public_key={PUBLIC_KEY}`
