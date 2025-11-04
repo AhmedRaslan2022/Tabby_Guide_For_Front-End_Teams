@@ -78,4 +78,4 @@ Close collaboration is essential for smooth integration and comprehensive testin
 
  After verifying that everything works correctly and all items in the test checklist are covered, each platform should provide one account with at least 5 paid orders using any available payment option.
 
-Additionally, please register an account with a rejected order to assist the Tabby QA team in their testing process.
+Additionally, please register an account with the rejected credentials to assist the Tabby QA team in their testing process.
