@@ -71,4 +71,11 @@ Close collaboration is essential for smooth integration and comprehensive testin
 
 * [Testing Credentials](https://docs.tabby.ai/testing-guidelines/testing-credentials)
 
+---
+
  
+## 5. Provide Testing Credentials For Tabby QA Team 
+
+ After verifying that everything works correctly and all items in the test checklist are covered, each platform should provide one account with at least 5 paid orders using any available payment option.
+
+Additionally, please register an account with a rejected order to assist the Tabby QA team in their testing process.
