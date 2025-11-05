@@ -54,7 +54,7 @@ The front-end must handle scenarios where Tabby's payment option is unavailable 
 | :--- | :--- | :--- |
 | **Price Too High** | Attempt to checkout with a product price significantly **above the limit** (e.g., 1,000,000 SAR/AED). | Tabby must be **unselectable** and display the rejection reason. |
 | **Price Too Low** | Attempt to checkout with a product price significantly **under the limit** (e.g., 10 SAR/AED). | Tabby must be **unselectable** and display the rejection reason. |
-| **Rejected Credentials** | Use test credentials known to be rejected (provided by the backend team). | Tabby must be **unselectable** and display the rejection reason. |
+| **Rejected Credentials** | Use test credentials known to be rejected (provided in the gateway docs). | Tabby must be **unselectable** and display the rejection reason. |
 | **Rejection Message** | Ensure the rejection message is **identical** to the documentation in both **English** and **Arabic**. | Work with the backend team to confirm the exact strings. |
 
 ### 🔗 Required Documentation Links
