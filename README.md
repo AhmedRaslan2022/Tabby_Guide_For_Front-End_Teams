@@ -5,17 +5,17 @@ This guide outlines the steps required to successfully integrate Tabby as a paym
 
 ---
 
-## 1. Implement Tabby Widget View
+## 1. Implement Tabby Snippet
 
-The Tabby widget view is crucial for informing customers about the "Pay in X" option and its benefits, usually displayed on the **Product Details Page** or, if unavailable, on the **Payment Checkout Page**.
+The Tabby Snippet is crucial for informing customers about the "Pay in X" option and its benefits, usually displayed on the **Product Details Page** or, if unavailable, on the **Payment Checkout Page**.
 
 | Aspect | Details |
 | :--- | :--- |
 | **Placement** | On the **Product Details Page** near the price, or on the **Payment Checkout Page**. |
-| **Description** | Implement the widget as described in the Tabby documentation, including the required branding (logo, title, description). |
-| **Interaction** | If the widget is tapped/clicked, it must open the specific informational link provided by Tabby, with all required query parameters (e.g., product price, currency). |
+| **Description** | Implement the Snippet as described in the Tabby documentation, including the required branding (logo, title, description). |
+| **Interaction** | If the Snippet is tapped/clicked, it must open the specific informational link provided by Tabby, with all required query parameters (e.g., product price, currency). |
 
-* **Widget Interaction Link (Example):** `https://checkout.tabby.ai/promos/product-page/installments/{lang}/?price={PRICE}&currency={CURRENCY}&merchant_code={MERCHANT_CODE}&public_key={PUBLIC_KEY}`
+* **Snippet Interaction Link (Example):** `https://checkout.tabby.ai/promos/product-page/installments/{lang}/?price={PRICE}&currency={CURRENCY}&merchant_code={MERCHANT_CODE}&public_key={PUBLIC_KEY}`
 
 * `lang`  according to current lang set to ar or en
 * `price` (e.g., `100` final total price)
@@ -23,7 +23,7 @@ The Tabby widget view is crucial for informing customers about the "Pay in X" op
 * `merchant_code` (e.g., `SBA`)
 * `public_key` (e.g., `pk_xyz`)
 
-* [Link to Tabby's Widget Implementation Guide](https://docs.tabby.ai/pay-in-4-custom-integration/on-site-messaging)
+* [Link to Tabby's Snippet Implementation Guide](https://docs.tabby.ai/pay-in-4-custom-integration/on-site-messaging)
  
 ---
 
